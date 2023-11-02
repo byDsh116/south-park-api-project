@@ -1,4 +1,5 @@
 const React = require('react');
+const RandomButton = require('./components/RandomButton');
 
 module.exports = function Navbar() {
     return (
@@ -27,6 +28,7 @@ module.exports = function Navbar() {
                             CHARACTERS
                         </a>
                     </div>
+                    <RandomButton />
                 </div>
             </div>
         </nav>

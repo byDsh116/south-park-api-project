@@ -19,5 +19,7 @@ module.exports = {
     'react/prop-types': 0,
     'react/jsx-one-expression-per-line': 0,
     'import/no-extraneous-dependencies': 'off',
+    tab_size: 2,
+    translate_tabs_to_spaces: true,
   },
 };
